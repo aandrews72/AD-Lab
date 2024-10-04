@@ -28,7 +28,7 @@ For this lab, I wanted to create a user and implement a Group Policy. I created 
 
 After creating [**John Doe**](imgs/JohnDoeAdded.png), I implemented a **Group Policy**—specifically a **password policy** to enforce strong passwords, set expiration dates, and other security requirements. I accessed **Group Policy Management** from the **Tools** section in **Server Manager**, selected `adlab.com`, created a new **Group Policy Object (GPO)** for **Password Policies**, and navigated to **Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy**. [Here](imgs/GroupPolicyManagementEditor), I configured specific [password policies](imgs/PasswordPolicies), such as minimum length and complexity. I applied the policy to the domain by right-clicking `adlab.com` and selecting **Link an Existing GPO**, then choosing the **Password Policy GPO**.
 
-## Key Learnings and Outcomes
+## Outcomes and What I Learned
 With this lab, I became more comfortable working with cloud deployment through AWS, setting up and configuring **Active Directory** and **DNS servers**, calculating **subnet masks**, determining **default gateways**, managing **domains, users, and groups**, and implementing **Group Policies**. I also gained valuable experience with **Windows Server 2022**.
 
 This project helped me develop key IT skills, such as managing cloud infrastructure on AWS, configuring Active Directory and DNS, calculating subnet masks, and enforcing security policies through Group Policies. This hands-on experience has prepared me for an IT role, particularly in **system administration** or **IT helpdesk**, where managing users, domains, and ensuring network reliability are essential.
